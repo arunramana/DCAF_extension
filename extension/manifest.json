@@ -1,0 +1,21 @@
+{
+  "name": "DCAF",
+  "description": "Prompts user for an intention and checks each visited site for relevance.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "DCAF"
+  }
+}
+
